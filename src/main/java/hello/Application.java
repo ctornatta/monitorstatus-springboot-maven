@@ -12,7 +12,7 @@ public class Application {
 
 	@RequestMapping("/")
 	public String home() {
-		return "status=up";
+		return "status=up v1.1";
 	}
 
 
