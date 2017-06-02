@@ -13,7 +13,7 @@ public class Application {
 	@RequestMapping("/")
 	public String home() {
 		//return "status=up v1.2";
-		String version = 'Java Version: ' + System.getProperty("java.version");
+		String version = "Java Version: " + System.getProperty("java.version");
 		return version;
 	}
 
