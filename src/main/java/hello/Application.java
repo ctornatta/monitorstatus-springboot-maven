@@ -14,7 +14,7 @@ public class Application {
 	public String home() {
 		//return "status=up v1.2";
 		version = System.getProperty("java.version");
-		return version
+		return version;
 	}
 
 
